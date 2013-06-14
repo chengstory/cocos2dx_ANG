@@ -61,6 +61,9 @@
     <Filter Include="Components">
       <UniqueIdentifier>{e82b14bf-eb08-4a40-a9a2-cc92a154d9b9}</UniqueIdentifier>
     </Filter>
+    <Filter Include="Primitives">
+      <UniqueIdentifier>{4139ce47-6fe2-4145-9d08-4fca03ba6c61}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="..\GUI\CCScrollView\CCScrollView.cpp">
@@ -363,6 +366,12 @@
     <ClCompile Include="..\CCArmature\animation\CCArmatureAnimation.cpp">
       <Filter>CCArmature\animation</Filter>
     </ClCompile>
+    <ClCompile Include="..\Primitives\PrimitiveElement.cpp">
+      <Filter>Primitives</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Primitives\PrimitiveLayer.cpp">
+      <Filter>Primitives</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="..\GUI\CCScrollView\CCScrollView.h">
@@ -642,6 +651,12 @@
     </ClInclude>
     <ClInclude Include="..\CCArmature\animation\CCArmatureAnimation.h">
       <Filter>CCArmature\animation</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Primitives\PrimitiveElement.h">
+      <Filter>Primitives</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Primitives\PrimitiveLayer.h">
+      <Filter>Primitives</Filter>
     </ClInclude>
   </ItemGroup>
   <ItemGroup>

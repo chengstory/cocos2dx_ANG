@@ -169,6 +169,8 @@
     <ClCompile Include="..\network\Websocket.cpp" />
     <ClCompile Include="..\physics_nodes\CCPhysicsDebugNode.cpp" />
     <ClCompile Include="..\physics_nodes\CCPhysicsSprite.cpp" />
+    <ClCompile Include="..\Primitives\PrimitiveElement.cpp" />
+    <ClCompile Include="..\Primitives\PrimitiveLayer.cpp" />
     <ClCompile Include="..\spine\Animation.cpp" />
     <ClCompile Include="..\spine\AnimationState.cpp" />
     <ClCompile Include="..\spine\AnimationStateData.cpp" />
@@ -291,6 +293,8 @@
     <ClInclude Include="..\network\Websocket.h" />
     <ClInclude Include="..\physics_nodes\CCPhysicsDebugNode.h" />
     <ClInclude Include="..\physics_nodes\CCPhysicsSprite.h" />
+    <ClInclude Include="..\Primitives\PrimitiveElement.h" />
+    <ClInclude Include="..\Primitives\PrimitiveLayer.h" />
     <ClInclude Include="..\spine\Animation.h" />
     <ClInclude Include="..\spine\AnimationState.h" />
     <ClInclude Include="..\spine\AnimationStateData.h" />

@@ -54,11 +54,14 @@ public:
 
 private:
     virtual bool Create();
-    bool initGL();
+    
     void destroyGL();
 public:
+	bool initGL();
+
     virtual LRESULT WindowProc(UINT message, WPARAM wParam, LPARAM lParam);
 
+	void setHWnd(HWND hWnd);
     // win32 platform function
     HWND getHWnd();
     void resize(int width, int height);
