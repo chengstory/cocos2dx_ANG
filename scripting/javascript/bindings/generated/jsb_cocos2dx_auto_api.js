@@ -5433,6 +5433,11 @@ convertToUI : function () {},
 setAccelerometer : function () {},
 
 /**
+ * @method setDefaultValues
+ */
+setDefaultValues : function () {},
+
+/**
  * @method init
  * @return A value converted from C/C++ "bool"
  */
@@ -6276,6 +6281,14 @@ disableShadow : function () {},
  * @method disableStroke
  */
 disableStroke : function () {},
+
+/**
+ * @method createWithFontDefinition
+ * @return A value converted from C/C++ "cocos2d::CCLabelTTF*"
+ * @param {const char*}
+ * @param {cocos2d::ccFontDefinition}
+ */
+createWithFontDefinition : function () {},
 
 /**
  * @method CCLabelTTF

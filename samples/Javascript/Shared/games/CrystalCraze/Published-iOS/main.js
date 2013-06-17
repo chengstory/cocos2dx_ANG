@@ -8,7 +8,6 @@ require("jsb_opengl.js");
 require("jsb_sys.js");
 
 require("AboutScene.js");
-require("GameBoard.js");
 require("GameScene.js");
 require("MainScene.js");
 

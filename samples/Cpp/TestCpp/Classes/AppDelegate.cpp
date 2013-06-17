@@ -15,7 +15,7 @@ AppDelegate::AppDelegate()
 AppDelegate::~AppDelegate()
 {
 //    SimpleAudioEngine::end();
-	cocos2d::extension::CCArmatureDataManager::sharedArmatureDataManager()->purgeArmatureSystem();
+	cocos2d::extension::CCArmatureDataManager::purgeArmatureSystem();
 }
 
 bool AppDelegate::applicationDidFinishLaunching()
@@ -31,11 +31,8 @@ bool AppDelegate::applicationDidFinishLaunching()
 
     CCSize screenSize = CCEGLView::sharedOpenGLView()->getFrameSize();
 
-#ifdef TIZEN
-    CCSize designSize = CCSizeMake(1280, 720);
-#else
     CCSize designSize = CCSizeMake(480, 320);
-#endif
+
     CCFileUtils* pFileUtils = CCFileUtils::sharedFileUtils();
     
     if (screenSize.height > 320)

@@ -604,10 +604,6 @@ HWND CCEGLView::getHWnd()
 {
     return m_hWnd;
 }
-void CCEGLView::setHWnd(HWND hWnd)
-{
-	m_hWnd = hWnd;
-}
 
 void CCEGLView::resize(int width, int height)
 {
