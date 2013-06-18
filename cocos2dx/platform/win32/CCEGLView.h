@@ -61,6 +61,7 @@ public:
 
     // win32 platform function
     HWND getHWnd();
+    void setHWnd(HWnd hWnd);
     void resize(int width, int height);
     /* 
      * Set zoom factor for frame. This method is for debugging big resolution (e.g.new ipad) app on desktop.
